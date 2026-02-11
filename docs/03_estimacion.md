@@ -20,6 +20,12 @@
 
 ---
 
+## Diagrama de Módulos
+
+![Diagrama de Módulos](../diagrams/modulos.png)
+
+---
+
 ## Estimación de Esfuerzo (horas/persona)
 
 | Módulo                            | Esfuerzo (horas) |
