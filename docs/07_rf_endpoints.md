@@ -15,9 +15,9 @@ Requisito Funcional -> Método HTTP -> Endpoint -> Reglas de negocio
 
 ## 2. Módulo Students (Alumnos)
 
-## RF-04: Registrar, modificar y eliminar alumnos
+### RF-04: Registrar, modificar y eliminar alumnos
 
-### POST /students
+#### POST /students
 Descripción: Crear un nuevo alumno.
 
 Body esperado:
@@ -37,7 +37,7 @@ Respuesta:
 
 ---
 
-### GET /students
+#### GET /students
 Descripción: Listar alumnos.
 
 Consulta opcional:
@@ -51,7 +51,7 @@ Respuesta:
 
 ---
 
-### GET /students/:id
+#### GET /students/:id
 Descripción: Consultar alumno por ID.
 
 Reglas:
@@ -60,7 +60,7 @@ Reglas:
 
 ---
 
-### PATCH /students/:id
+#### PATCH /students/:id
 Descripción: Actualizar información del alumno.
 
 Body parcial:
@@ -76,7 +76,7 @@ Reglas:
 
 ---
 
-### DELETE /students/:id
+#### DELETE /students/:id
 Descripción: Eliminación lógica del alumno.
 
 Regla:
@@ -85,11 +85,11 @@ Regla:
 
 ---
 
-# 3. Módulo Subjects (Materias)
+## 3. Módulo Subjects (Materias)
 
-## RF-05: Gestionar materias
+### RF-05: Gestionar materias
 
-### POST /subjects
+#### POST /subjects
 Crear materia.
 
 Body:
@@ -105,25 +105,25 @@ Reglas:
 
 ---
 
-### GET /subjects
+#### GET /subjects
 Listar materias.
 
-### GET /subjects/:id
+#### GET /subjects/:id
 Consultar materia específica.
 
-### PATCH /subjects/:id
+#### PATCH /subjects/:id
 Actualizar materia.
 
-### DELETE /subjects/:id
+#### DELETE /subjects/:id
 Eliminar materia.
 
 ---
 
-# 4. Módulo Grades (Calificaciones)
+## 4. Módulo Grades (Calificaciones)
 
-## RF-06 y RF-07: Registrar y consultar calificaciones
+### RF-06 y RF-07: Registrar y consultar calificaciones
 
-### POST /grades
+#### POST /grades
 Registrar calificación.
 
 Body:
@@ -143,25 +143,25 @@ Respuesta:
 
 ---
 
-### GET /grades
+#### GET /grades
 Listar calificaciones.
 
-### GET /grades/:id
+#### GET /grades/:id
 Consultar calificación específica.
 
-### PATCH /grades/:id
+#### PATCH /grades/:id
 Actualizar calificación.
 
-### DELETE /grades/:id
+#### DELETE /grades/:id
 Eliminar calificación.
 
 ---
 
-# 5. Módulo Users (Usuarios)
+## 5. Módulo Users (Usuarios)
 
-## RF-01 y RF-02: Gestión de usuarios
+### RF-01 y RF-02: Gestión de usuarios
 
-### POST /users
+#### POST /users
 Crear usuario.
 
 Body:
@@ -178,7 +178,7 @@ Reglas:
 
 ---
 
-### POST /auth/login
+#### POST /auth/login
 Autenticación.
 
 Body:
